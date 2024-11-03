@@ -16,7 +16,7 @@ final class Solution {
     
     /// time complexity: O(n)
     ///space complexity: O(n)
-    /// ⭐️
+    /// ⭐️ explanations
     func twoNumSumUsingHashTable(_ array: [Int], targetSum: Int) -> [Int] {
         var complementHashTable: [Int: Bool] = [:]
         for number in array {
