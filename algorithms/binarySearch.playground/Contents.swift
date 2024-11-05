@@ -1,6 +1,7 @@
 import Foundation
 
 /// Time: O(log-n), Space: O(1)
+/// Note the list must be sorted before applying the binary search.
 func binarySearch(_ list: [Int], _ item: Int) -> Int? {
     var low = 0
     var high = list.count - 1
